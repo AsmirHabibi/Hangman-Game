@@ -16,6 +16,7 @@
  ```
  - Remember to replace your_filename with any desireable name you want.
 
+ - Or you can Run the file in The Exe Folder.
 # Level System
  - it has a Level System which is a Menu for you to go through any level you want.
 
