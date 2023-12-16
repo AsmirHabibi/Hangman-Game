@@ -4,7 +4,7 @@
 class Easy_Mode
 {
 private:
-    bool wordGuessed = false;
+    bool wordGuessed = false; 
     char userGuess;
     int attempts = 0;
     char ynretry;
