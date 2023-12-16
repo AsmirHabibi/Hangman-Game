@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "../header/Hard_Mode.hpp"
+#include "../header/IMPOSSIBLE_Mode.hpp"
 
 using namespace std;
 
@@ -125,9 +126,7 @@ void Hard_Mode::HmainSystem()
         {
             cout << "Going to IMPOSSIBLE Mode" << endl;
             sleep(1);
-            cout << "WIP!" << endl;
-            sleep(2);
-            exit(0);
+            IMPOSSIBLE_Mode impossible_mode;
         }
         else
         {

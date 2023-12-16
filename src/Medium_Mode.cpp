@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "../header/Medium_Mode.hpp"
+#include "../header/Hard_Mode.hpp"
 
 using namespace std;
 
@@ -92,11 +93,9 @@ void Medium_Mode::Main_System()
         }
         else if (Mynretry == 'h' || Mynretry == 'H')
         {
-            cout << "Going to Hard Mode" << endl;
+            cout << "Going to Hard Mode..." << endl;
             sleep(1);
-            cout << "WIP!" << endl;
-            sleep(2);
-            exit(0);
+            Hard_Mode hhhhhhhhh;
         }
         else
         {

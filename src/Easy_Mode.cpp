@@ -26,7 +26,7 @@ void Easy_Mode::mainSystem()
     string displayString(selectedString.length(), '-');
 
     attempts = 20;
-    cout << "Welcome To Eassy Mode" << endl;
+    cout << "Welcome To Easy Mode" << endl;
     sleep(1);
     cout << "You will have to guess a word, and you have 20 chances." << endl;
     sleep(2);
@@ -90,6 +90,7 @@ void Easy_Mode::mainSystem()
         {
             cout << "Going to Medium Level..." << endl;
             sleep(2);
+            system("cls");
             Medium_Mode muahahaha;
         }
         else
